@@ -1,0 +1,148 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: #728AAC;
+}
+
+.park-navbar {
+    background: url('pics/Cloud\ Cap\ Overlook.JPG') center/cover;
+    height: 100vh; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 18px;
+    background-color: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#navItems{
+    text-align: left;
+    display:flex;
+}
+
+
+#navItems .nav-item {
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  #navItems .nav-item:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+  }
+
+#navItems .nav-link1 {
+    color: #0e0e85; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+
+/* Style for the h3 in the navbar */
+/* Style for the h3 in the navbar */
+.navbar-heading {
+    font-size: 50px; /* Adjust the font size to your preference */
+    color: #0e0e85;   /* Set the text color to white */
+    font-weight: bold; /* Make the text bold */
+    opacity: 0.8; /* Adjust the opacity to your preference */
+    padding: 10px 20px; /* Add some padding for better visibility */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  }
+
+.additional-text {
+    position: absolute;
+    right: 55px;
+    transform: translate(0, -50%);
+    top: 50%;
+    color: #edffc2; /* Adjust the color as needed */
+    font-size: 54px; /* Adjust the font size as needed */
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 0;
+    right: 0; /* Adjust left value as needed */
+    font-size: 80px; /* Adjust the font size as needed */
+    color: #edffc2;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+  }
+
+/* .custom-h2 {
+    font-size: 40px; /* Adjust the font size as needed */
+
+/* .custom2-h2 {
+    font-size: 35px; 
+    color: black;
+} */
+
+/* .highlight-dark{
+    background-color: #445a7b;
+} */
+
+/* .highlight-light{
+    background-color:#b8c9e3;
+} */
+
+
+.highlight-light {
+  color: black; /* Adjust the color as needed */
+}
+
+.custom-h2 {
+  font-size: 24px;
+}
+
+.custom-p {
+  font-size: 18px;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid {
+  max-width: 150%;
+  height: auto;
+}
+
+
+
+
+footer{
+    background-color: #728AAC;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:50px;
+    padding-bottom: 50px;
+    align-items: flex-start;
+  }
+  
+  /* Style for individual columns */
+.column {
+    flex-basis: 15%; /* Adjust to control column width */
+    padding: 10px;
+    text-align: left;
+    color: white;
+    margin-left:60px;
+  }
+  
+  .column-body{
+    text-align: left;
+  }
+  
+  .column-body p {
+    margin-bottom: 50px !important;
+  }
+  
+  .first-item{
+    margin-top: 35px;
+  }
+
+.no-bg{
+    background-color: transparent;
+}
+
