@@ -67,47 +67,22 @@ body {
     font-family: 'Dancing Script', cursive;
   }
 
-/* .custom-h2 {
-    font-size: 40px; /* Adjust the font size as needed */
+.custom-h2 {
+    font-size: 40px;
+}
 
-/* .custom2-h2 {
+.custom2-h2 {
     font-size: 35px; 
     color: black;
-} */
+}
 
-/* .highlight-dark{
+.highlight-dark{
     background-color: #445a7b;
-} */
+}
 
-/* .highlight-light{
+.highlight-light{
     background-color:#b8c9e3;
-} */
-
-
-.highlight-light {
-  color: black; /* Adjust the color as needed */
-}
-
-.custom-h2 {
-  font-size: 24px;
-}
-
-.custom-p {
-  font-size: 18px;
-}
-
-.responsive-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.img-fluid {
-  max-width: 150%;
-  height: auto;
-}
-
-
-
+ } 
 
 footer{
     background-color: #728AAC;
